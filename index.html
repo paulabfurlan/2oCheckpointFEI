@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Checkpoint 2</title>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="container">
+    <div class="header">
+      <ul class="container-cabecalho">
+        <li class="lista-cidades">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="lista-cidades">
+          <a href="manaus.html">Visite Manaus</a>
+        </li>
+        <li class="lista-cidades">
+          <a href="index-rio.html">Visite o Rio de Janeiro</a>
+        </li>
+        <li class="lista-cidades">
+          <a href="floripa.html">Visite Florianópolis</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- Chamada do site -->
+  <main class="container">
+      <div class="header-foto">
+        <h1 class="tour">Faça um tour pelo Brasil!</h1>
+        <img class="container-tour" src="imagem/fundo.jpeg" alt="">
+      </div>
+    <!-- Fim chamada do site -->
+    <!-- Formulário -->
+    <fieldset class="formulario">
+      <legend>Cadastro do Viajante</legend>
+      <div class="formulario-nome">
+        <input class="espaco" type="text" name="name" maxlength="100" id="" placeholder="Nome">
+        <input class="espaco" type="email" name="email" id="" placeholder="e-Mail">
+      </div>
+      <div class="formulario-data">
+        <input class="espaco" type="tel" name="telefone" id="" placeholder="Telefone">
+        <input class="espaco" type="date" name="date" id="" placeholder="Data de Nascimento">
+      </div>
+      <div class="formulario-idade">
+        <label for="idade">Você é maior de 18 anos?</label>
+        <select name="" id="idade">
+          <option value="">Sim</option>
+          <option value="">Não</option>
+        </select>
+      </div>
+      <fieldset class="formulario-cidade">
+        <legend>O que gostaria de visitar em cada cidade?</legend>
+        <label for="manaus">Visite Manaus</label>
+        <select name="" id="manaus">
+          <option value="">Teatro Amazonas</option>
+          <option value="">Encontro das águas</option>
+          <option value="">Tour pelas Cachoeiras</option>
+          <option value="">Mercado Municipal Adolpho Lisboa</option>
+        </select>
+        <label for="rioDeJaneiro">Visite Rio de Janeiro</label>
+        <select name="" id="rioDeJaneiro">
+          <option value="">Floresta da Tijuca</option>
+          <option value="">Grumari</option>
+          <option value="">Cristo Redentor</option>
+          <option value="">Pão de Açucar</option>
+        </select>
+        <label for="florianopolis">Visite Florianópolis</label>
+        <select name="" id="florianopolis">
+          <option value="">Ponte Hercílio Luz</option>
+          <option value="">Vôo de Balão nos Canyons Catarinenses</option>
+          <option value="">Vale Europeu - Blumenau e Pomerode</option>
+          <option value="">Pousada Caminho das Nuvens</option>
+        </select>
+      </fieldset>
+      <fieldset class="formulario-viajante">
+        <legend>Que tipo de viajante é você?</legend>
+        <div class="input-checkbox">
+          <input type="checkbox" name="" id="turista">
+          <label for="turista">Turista</label>
+        </div>
+        <div class="input-checkbox">
+          <input type="checkbox" name="" id="residente">
+          <label for="residente">Residente</label>
+        </div>
+        <div class="input-checkbox">
+          <input type="checkbox" name="" id="estudante">
+          <label for="estudante">Estudante</label>
+        </div>
+      </fieldset>
+      <div class="formulario-buttons">
+        <button type="reset">Limpar Dados</button>
+        <button type="submit">Enviar</button>
+      </div>
+    </fieldset>
+    
+    <!-- Fim do formulário -->
+  </main>
+  
+</body>
+</html>

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Urbanist:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+body
+{
+    width: 1320px;
+    height: 2000px;
+    background-color: #014B00;
+    overflow: auto;
+    position: relative;
+}
+
+main
+{
+    width: 1220px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Noto Serif', serif;
+    font-size: 20pt;
+    color: #47f047;
+}
+
+h1
+{
+    font-family: 'Noto Serif', serif;
+    font-size: 40pt;
+    color: #47f047;
+}
+
+h2
+{
+    font-size: 30pt;
+}
+
+iframe
+{
+    top: 860px;
+    left: 20px;
+    width: 1280px; 
+    height: 720px;
+    position: absolute;
+}
+
+ul
+{
+    top: 100px;
+    left: 60px;
+    width: 1240px;
+    position: absolute;
+}
+
+ul li
+{
+    font-size: 18pt;
+    padding: 20px;
+}
+
+footer
+{
+    top: 2700px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: #00CC00;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.menu
+{
+    top: 20px;
+    left: 20px;
+    width: 1280px;
+    height: 80px;
+    background-color: #00CC00;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.fundo
+{
+    top: 120px;
+    left: 20px;
+    width: 1280px;
+    height: 720px;
+    background-image: url("../imagem/manaus.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.hea
+{
+    width: 1280px;
+    top: 140px;
+    left: 20px;
+    position: absolute;
+    padding: 20px;
+    z-index: 1;
+}
+
+.curiosidades
+{
+    top: 1700px;
+    left: 40px;
+    position: absolute;
+}
+
+.logo
+{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 60px;
+    height: 60px;
+}
+
+.menuItem
+{
+    width: 20%;
+    height: 100%;
+    background-color: #00CC00;
+}
+
+.btnMenu
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: #00CC00;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.paragMain
+{
+    top: 420px;
+    left: 40px;
+    position: absolute;
+}
+
+.foo
+{
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.logoFace
+{
+    top: 60px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.logoInsta
+{
+    top: 60px;
+    left: 100px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.logoTwitter
+{
+    top: 60px;
+    left: 190px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+}

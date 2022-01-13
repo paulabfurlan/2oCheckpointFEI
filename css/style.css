@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: rgb(198, 237, 255);
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li:hover {
+  background-color: rgb(35, 21, 168);
+  color: #ccc;
+  font-weight: 600;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(73, 107, 255);
+}
+
+.container-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.lista-cidades{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header-foto {
+  position: relative;
+}
+
+.container-tour {
+  width: 100%;
+}
+
+.tour {
+  z-index: 1;
+  position: absolute;
+  font-size: 70px;
+  left: 15%;
+  margin-top: 36%;
+}
+
+.formulario {
+  padding: 20px;
+}
+
+div > input {
+  width: 100%;
+  padding: 15px;
+  height: 10px;
+}
+
+.espaco {
+  margin: 0 5px;
+}
+
+.formulario-nome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.formulario-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.formulario-idade {
+  padding: 20px 0;
+}
+
+.formulario-cidade {
+  margin: 10px 0;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 200px 300px;
+}
+
+.formulario-viajante {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+div > button {
+  margin: 0 15px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #777;
+  cursor: pointer;
+}
+
+div > select {
+  padding: 5px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+fieldset > label {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+fieldset > select {
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+}
+
+#turista, #residente, #estudante {
+  height: 15px;
+}
+
+#turista:hover, #residente:hover, #estudante:hover {
+  height: 17px;
+}
+
+div > label {
+  font-weight: 500;
+}
+
+.input-checkbox {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+}
+
+.formulario-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
